@@ -1,10 +1,36 @@
 .lead__title {
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    /* max-height: 200px; */
     text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__title {
+        max-width: 1184px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        max-width: 928px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        /* max-height: 88px; */
+        font-size: 40px;
+        line-height: 44px;
+    }
+    
 }
