@@ -4,20 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     background-image: url(../../images/cover-trains.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    /* background-color: #2A2C2F; */
 }
-
-/* .cover:hover::before {
-    content: "";
-    position: absolute;
-    opacity: 0.8;
-    background: #2A2C2F;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-} */

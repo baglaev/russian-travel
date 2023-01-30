@@ -6,3 +6,11 @@
     justify-content: flex-end;
     row-gap: 12px;
 }
+
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin: 0;
+    }
+    
+}
