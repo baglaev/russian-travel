@@ -14,17 +14,20 @@
     }
 }
 @media screen and (max-width: 1024px) {
-    
+    .header {
+        max-width: 928px;
+    }
 }
 @media screen and (max-width: 768px) {
-    
+    .header {
+        max-width: 720px;
+    }
 }
-@media screen and (max-width: 425px) {
-    
-}
-@media screen and (max-width: 375px) {
-    
-}
+
 @media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        height: 42px;
+    }
     
 }
