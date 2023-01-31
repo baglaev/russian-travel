@@ -18,12 +18,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
     .footer {
         max-width: 288px;
         display: flex;
         flex-direction: column;
         row-gap: 48px;
     }
-    
 }

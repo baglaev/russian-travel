@@ -12,11 +12,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
     .place__paragraph {
         width: 288px;
         font-size: 16px;
         margin: 0 auto 0 auto;
     }
-    
 }
