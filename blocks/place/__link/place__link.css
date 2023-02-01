@@ -9,3 +9,15 @@
 .place__link:hover {
     opacity: .8;
 }
+
+@media screen and (max-width: 610px) {
+    .place__link {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place__link {
+        font-size: 18px;
+    }
+}
